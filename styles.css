@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+}
+
+.header {
+  background-color: white;
+  color: hsl(0, 0%, 50%);
+}
+
+.buscador__opciones__container {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 8px 32px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buscador > input {
+  width: 512px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  outline: 1px solid hsl(0, 0%, 70%);
+  padding: 6px 16px;
+  font-size: 1rem;
+}
+
+.opciones {
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0;
+  padding: 0;
+  font-size: 0.9rem;
+  /* gap: 32px; */
+}
+
+.opciones li {
+  padding: 12px 20px;
+}
+
+.opciones li:hover {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.laptop__publicidad {
+  position: relative;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.button {
+  font-size: 1rem;
+  border: none;
+  outline: 1px solid white;
+  padding: 12px 24px;
+}
+
+.laptop__publicidad > div {
+  color: white;
+  position: absolute;
+  top: 0;
+  background-color: hsla(0, 0%, 0%, 40%);
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  padding: 24px 48px;
+}
+
+.buttons__container {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.laptop__publicidad > img {
+  width: 100%;
+}
